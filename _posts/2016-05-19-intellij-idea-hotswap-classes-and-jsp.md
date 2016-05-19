@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015-01-05 IntelliJ IDEA 設定 Hotswap Classes and Jsp
+title: IntelliJ IDEA 設定 Hotswap Classes and Jsp
 modified:
 categories: 
 description:
@@ -13,9 +13,6 @@ comments:
 share:
 date: 2016-05-19T05:07:05-04:00
 ---
-
-IntelliJ IDEA 設定 hotswap classes and jsp 
------------------------------------------
 
 在 IDEA 中設成存檔後，自動將異動的 jsp 與 classes 或其他 resources 安裝到執行中的 Application Server，可依以下步驟進行
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: CURL 測試 Redis 指
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2014-12-24
 tags: [sample post]
@@ -9,8 +9,6 @@ image:
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
-
-# CURL 測試 Redis 指令
 
 ```
 curl -i -d "name=Mattias" localhost:8080

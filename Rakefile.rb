@@ -74,6 +74,13 @@ task :new_page, :title do |t, args|
   end
 end
 
+# push post to github
+desc "Push post to github"
+task publish do
+  git push origin gh-pages
+end
+
+
 def get_stdin(message)
   print message
   STDIN.gets.chomp
