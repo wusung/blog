@@ -23,7 +23,7 @@ date: 2016-05-19T05:07:05-04:00
 5. 切到 "Server" tab
 6. 將 "On frame Deactivation" 設定調整為 "Update resources" 或 "Update Classes and Resources"
     - Update resources: 所有變動的 resources 都會更新到 Application Server
-    - Update classes and resources: 會更新所有變動的 resources；而變動的 classes 會重新 compile。要特別注意的asses 的更新方式要看不同的 Application Server。以 Tomcat 為例會重新更新 html/xhtml 與 jsp 檔案，但是 servlet 與 jsp 對應的 classes 則不會被自動更新，必需使用 dynamic classloader
+    - Update classes and resources: 會更新所有變動的 resources；而變動的 classes 會重新 compile。要特別注意的 assets 的更新方式要看不同的 Application Server。以 Tomcat 為例會自動重新更新 html/xhtml 與 jsp 檔案，但是 servlet 與 jsp 對應的 classes 則不會被自動更新，必需使用 dynamic classloader
 7. 你也可以自行調整按下 "Update" 按鈕之後的行為
 
 現在只要修改任何檔案後且焦點離開 IDEA 後，IDEA 會自動將變動的檔案更新到 Application Server，仔細觀查可以在 status bar 看到 hotswap 更新狀態的訊息。最後重新在 browser 重新更新就看到最新的結果
